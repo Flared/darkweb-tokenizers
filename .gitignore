@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+/.mypy_cache
+/.mypy_cache_strict
+env/
+/admin/admin/build
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# File
+*.txt
