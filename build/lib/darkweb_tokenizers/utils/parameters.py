@@ -1,1 +1,0 @@
-FILE_TEXT_TOKENIZER = "text_tokenizer.model"
