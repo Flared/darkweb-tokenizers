@@ -11,7 +11,6 @@ requires-python = ">=3.6"
 
 # Requirements: This is done differently by poetry!
 dependencies = [
-    "Cython",
     "youtokentome"
 ]
 
