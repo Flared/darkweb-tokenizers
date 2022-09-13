@@ -3,7 +3,6 @@ from typing import Protocol
 
 import os
 
-from darkweb_tokenizers.utils.parameters import FILE_TEXT_TOKENIZER
 from darkweb_tokenizers.utils.types import Tokens
 from youtokentome import BPE
 from youtokentome import OutputType
@@ -42,5 +41,5 @@ class BPETokenizer:
         return self.tokenize.vocab()
 
     @classmethod
-    def load_from_disk(cls, directory_path: str) -> "BPETokenizer":
-        return cls(model=os.path.join(directory_path, FILE_TEXT_TOKENIZER))
+    def load_from_disk(cls, model_path: str) -> "BPETokenizer":
+        return cls(model=model_path)
