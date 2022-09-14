@@ -4,7 +4,7 @@ Flare research team is releasing the first tokenizer adapted to DarkWeb contents
 
 Behind the scenes, the dark web-tokenizers have been trained on years of content of illicit sources from Flare's database using bype-pair encoding. 
 
-Feel free to try [Flare's auto-extractor](https://auto-extractor.flare.systems/), which is able to extract the titles, publications date and authors of a variety of illicit forums, without the need of human assistance (Xpath or CSSSelector). Behind the scenes, the DarkWeb tokenizer is in action, combined with a sequence labling model and algorithms. See the [associated research](https://espace.etsmtl.ca/id/eprint/2993/).
+Feel free to try [Flare's auto-extractor](https://auto-extractor.flare.systems/), which is able to extract the titles, publications date and authors of a variety of illicit forums, without the need of human assistance (Xpath or CSSSelector). Behind the scenes, the DarkWeb tokenizer is in action, combined with a sequence labeling model and algorithms. See the [associated research](https://espace.etsmtl.ca/id/eprint/2993/).
 ## Installation
 
 ```bash
@@ -13,8 +13,6 @@ cd darkweb-tokenizers
 python -m venv env
 source env/bin/activate
 pip install Cython # Mandatory
-python -m venv env
-source env/bin/activate
 pip install .
 ```
 
